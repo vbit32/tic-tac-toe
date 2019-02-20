@@ -1,0 +1,49 @@
+h1 {
+    margin: 20px auto;
+    text-align: center;
+}
+.gameboard {
+    border: 7px dotted red;
+    width: 500px;
+    height: 500px;
+    margin: 3px auto;
+    background-color: #7ee2ef4d;
+    padding: 30px;
+    display: table;
+}
+.gameboard ul {
+    height: 33.33%;
+    display: inline-block;
+    width: -webkit-fill-available;
+    margin: 0 auto;
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    list-style: none;
+}
+.gameboard ul:nth-of-type(2) {
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+}
+.gameboard li {
+    border: 4px solid #00000099;
+    height: 100%;
+    width: 33.33%;
+    padding: 0;
+    background: #f4c4ffa6;
+    /* background-color: red; */
+    margin: -3px;
+    margin: 0;
+    display: table-cell;
+    position: relative;
+}
+#player-1, #player-2 {
+    position: absolute;
+    font-size: 142px;
+    font-weight: 900;
+    right: 0;
+    left: 0;
+    top: -15px;
+    margin: 0 auto;
+    text-align: center;
+}
